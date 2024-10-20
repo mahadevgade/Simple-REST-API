@@ -25,7 +25,7 @@ public class MsgController {
 	@GetMapping("/")
 	public String getHomeMsg()
 	{
-		String msg="Home Page...";
+		String msg="Index Page...";
 		
 		return msg;
 	}
