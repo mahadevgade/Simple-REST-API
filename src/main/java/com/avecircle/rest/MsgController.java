@@ -23,7 +23,7 @@ public class MsgController {
 	}
 
 	@GetMapping("/")
-	public String getGreetMsg()
+	public String getHomeMsg()
 	{
 		String msg="Home Page...";
 		
